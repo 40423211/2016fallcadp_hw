@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423211個人網誌</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2017-01-13T12:00:00+08:00</updated><entry><title>2016 Fall 電腦輔助設計與實習期末自評總結</title><link href="./2016-fall-dian-nao-fu-zhu-she-ji-yu-shi-xi-qi-mo-zi-ping-zong-jie.html" rel="alternate"></link><published>2017-01-13T12:00:00+08:00</published><updated>2017-01-13T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2017-01-13:./2016-fall-dian-nao-fu-zhu-she-ji-yu-shi-xi-qi-mo-zi-ping-zong-jie.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt; 這堂課最主要想帶給我們的東西&lt;/h2&gt;
+
+&lt;p&gt;本學期的電腦輔助設計與實習課程，讓我學習到很多，課程期中老師所教
+的程式協同與製圖程式，在嚴老師的教導下，對於網路協同的能力，提
+升了不少，猶記當時畫完一個連桿機構後，那種成就感更是無法用言語來形容。&lt;/p&gt;</summary><category term="期末自評總結"></category></entry><entry><title>onshape w16 :</title><link href="./onshape-w16.html" rel="alternate"></link><published>2017-01-06T12:00:00+08:00</published><updated>2017-01-06T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2017-01-06:./onshape-w16.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yyOywoaXips" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="上課內容"></category><category term="SolveSpace"></category></entry><entry><title>w15 四連桿:</title><link href="./w15-si-lian-gan.html" rel="alternate"></link><published>2016-12-30T12:00:00+08:00</published><updated>2016-12-30T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-12-30:./w15-si-lian-gan.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;Linkages :&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rFq23Ji-4Pg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src="./../40423211/40423211..png" width="800" /&gt;&lt;/p&gt;
+
+&lt;p&gt;將所得到的點座標 .csv 以 Excel 畫圖:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="./../40423211/40423211...png" width="800" /&gt;&lt;/p&gt;</summary><category term="上課內容"></category><category term="OnShape"></category><category term="SolveSpace"></category></entry><entry><title>w12 Solvespace 組合圖</title><link href="./w12-solvespace-zu-he-tu.html" rel="alternate"></link><published>2016-12-09T12:00:00+08:00</published><updated>2016-12-09T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-12-09:./w12-solvespace-zu-he-tu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;Solvespace 組合圖&lt;/p&gt;
+
+&lt;iframe src="./../40423211/40423211.html" width="800" height="600"&gt;&lt;/iframe&gt;</summary><category term="上課內容"></category><category term="SolveSpace"></category></entry><entry><title>停課</title><link href="./ting-ke.html" rel="alternate"></link><published>2016-11-25T12:00:00+08:00</published><updated>2016-11-25T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-11-25:./ting-ke.html</id><summary type="html">&lt;p&gt;停課&lt;/p&gt;</summary><category term="虎科大36週年校慶"></category></entry><entry><title>w10平面四連桿機構模擬</title><link href="./w10ping-mian-si-lian-gan-ji-gou-mo-ni.html" rel="alternate"></link><published>2016-11-18T12:00:00+08:00</published><updated>2016-11-18T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-11-18:./w10ping-mian-si-lian-gan-ji-gou-mo-ni.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;Solvespace 平面四連桿機構模擬&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="./../40423211/40423211.png" width="800" /&gt;
+&lt;h2&gt;將所得到的點座標的.csv以Excel的畫圖：&lt;/h2&gt;
+&lt;img src="./../40423211/40423211-2.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;首先利用 Brython, 讀取40423211目錄中的 40423211.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="fourbar" width="600" height="600"&gt;&lt;/canvas&gt;
+
+&lt;div id="container1"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 準備繪圖畫布
+canvas = doc["fourbar"]
+container1 = doc['container1']
+ctx = canvas.getContext("2d")
+
+fourbar_data = open("./../40423211/40423211.csv").read()
+fourbar_list = fourbar_data.splitlines()
+#container1 &lt;= fourbar_list[0]
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 利用 transform 將 y 座標反轉, 且 offset canvas.height
+# (X scale, X skew, Y skew, Y scale, X offset, Y offset)
+# 配合圖形位置進行座標轉換
+ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
+# 畫出 x 與 y 座標線
+# 各座標值放大 8 倍
+ratio = 8
+'''
+ctx.moveTo(0, 0)
+ctx.lineTo(0, 100)
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 0)
+'''
+ctx.moveTo(0, 0)
+ctx.lineTo(-30*ratio, 0)
+start_point = fourbar_list[0].split(",")
+ctx.moveTo(float(start_point[0])*ratio, float(start_point[1])*ratio)
+count = 0
+for data in fourbar_list[1:]:
+    point = data.split(",")
+    #count = count + 1
+    #container1 &lt;= str(count) + ":" + point[0] + "," + point[1]
+    #container1 &lt;= html.BR()
+    ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+&lt;/script&gt;</summary><category term="上課內容"></category><category term="SolveSpace"></category></entry><entry><title>檢查 w9</title><link href="./jian-cha-w9.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-11-11:./jian-cha-w9.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;去老師連結看自己連結對不對&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>自評 w8</title><link href="./zi-ping-w8.html" rel="alternate"></link><published>2016-11-04T12:00:00+08:00</published><updated>2016-11-04T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-11-04:./zi-ping-w8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;自評&lt;/a&gt;&lt;/h2&gt;</summary><category term="上課內容"></category></entry><entry><title>SolveSpace w5</title><link href="./solvespace-w5.html" rel="alternate"></link><published>2016-10-14T12:00:00+08:00</published><updated>2016-10-14T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-10-14:./solvespace-w5.html</id><summary type="html">&lt;p&gt;介紹SolveSpace&lt;/p&gt;</summary><category term="上課內容"></category><category term="SolveSpace"></category></entry><entry><title>建小組 w4</title><link href="./jian-xiao-zu-w4.html" rel="alternate"></link><published>2016-10-07T12:00:00+08:00</published><updated>2016-10-07T12:00:00+08:00</updated><author><name>40423211</name></author><id>tag:,2016-10-07:./jian-xiao-zu-w4.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;建立名為 2016fallcadp_bg3的小組倉儲&lt;/p&gt;</summary><category term="上課內容"></category></entry><entry><title>2D w2</title><link href="./2d-w2.html" rel="alternate"></link><published>1111-02-22T22:22:00+08:06</published><updated>1111-02-22T22:22:00+08:06</updated><author><name>40423211</name></author><id>tag:,1111-02-22:./2d-w2.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/190138554" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;心得:在使用onshape 跟solvespace 之後 我覺得onshape 好用太多了 這個軟體的草圖使用方式類似之前學過的Inventor不像solvespace每次要使用重覆的指令都要重點一次顯的比較麻煩
+&lt;/p&gt;</summary><category term="SolveSpace"></category></entry><entry><title>3D 作業</title><link href="./3d-zuo-ye.html" rel="alternate"></link><published>1111-02-22T22:22:00+08:06</published><updated>1111-02-22T22:22:00+08:06</updated><author><name>40423211</name></author><id>tag:,1111-02-22:./3d-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;心得:這個畫圖軟體我不太會用,但因為小組討論大家的用心,最後還是讓我們克服困難,生出了作品自己畫時還失敗了好多次&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/185829459" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="SolveSpace"></category></entry></feed>
